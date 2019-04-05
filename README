@@ -1,8 +1,8 @@
 Kernel 3.10.50 con parches para Opi-2G y i96 Orange pi:
 
--Parche para corregir Rando MAC:
+-Parche para corregir Random MAC:
 
-   /finalizada la instalacion añadir en /etc/modprobe.d/rdawfmac.conf
+   *finalizada la instalacion crar y añadir en /etc/modprobe.d/rdawfmac.conf
           options rdawfmac macaddr=0x74,0x2f,0x68,0xc9,0x72,0xd3
 
 
