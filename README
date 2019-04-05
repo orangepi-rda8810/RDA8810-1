@@ -7,7 +7,11 @@
           options rdawfmac macaddr=0x74,0x2f,0x68,0xc9,0x72,0xd3
 
 
--Parche para usar pequeñas pantalla TFT, desde make menuconfig:
+-Parche para usar pequeñas pantalla TFT:
+   #make menuconfig
+   -Device Drivers
+   -Graphics support 
+   -Support for small TFT LCD display modules
 
-
+         
         
